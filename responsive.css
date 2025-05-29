@@ -1,0 +1,56 @@
+
+/* tablet */
+@media screen and (max-width:1024px){
+
+    /* navbar start here */
+    .navbar{
+         padding: 14px 60px;
+         /* 8 */
+
+         height:100%;
+    }
+    ul{
+        display: none;
+    }
+    /* navbar end here */
+
+    /* bannar start here */
+    .bannar{
+        width: 100%;
+    }
+    .bannar h1{
+    font-size: 30px;
+
+}
+
+.main-vdo{
+    width:120px;
+
+}
+    /* bannar end here */
+}
+
+/* phone upto 425px */
+@media screen and (max-width:640px){
+    /* navbar start here */
+        .navbar {
+                padding: 14px 30px;
+            }
+        
+            .logo img {
+                width: 180px;
+            }
+            .btn{
+                 padding: 10px 20px;
+            }
+    /* navbar end here */
+
+main{
+    margin: 50px 30px;
+}
+     /* bannar start here */
+    .bannar p{
+        font-size: 18px;
+    }
+    /* bannar end here */
+}

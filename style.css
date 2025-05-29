@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color:azure;
+}
+
+/* navbar start here */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 100px;
+    background-color: #ffffff;
+    
+    
+}
+
+.logo img{
+    width: 250px;
+}
+
+ul{
+    display: flex;
+    list-style: none; /* bullet remove */
+}
+
+li a{
+   margin-right: 15px; /* row gap */
+   text-decoration: none;  /*  underline remove */
+   font-size: 20px;
+   color: #000000;
+}
+
+.btn{
+    padding: 10px 30px; /*  10px (top - bottom) and 30px (left and right) */
+    background: linear-gradient(to right, #550FF8, #B401D6);
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    
+}
+
+.btn1{
+    padding: 10px 30px; /*  10px (top - bottom) and 30px (left and right) */
+    background: linear-gradient(to right, #550FF8, #B401D6);
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+    
+    
+}
+
+.see-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+/* navbar end here */
+
+
+/* main  start here */
+main{
+    margin: 100px 120px;
+ 
+}
+
+/* bannar start here */
+.bannar{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding:15px;
+
+}
+
+.bannar h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.bannar p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.youtube{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+   
+    gap:20px;
+    
+}
+
+.video{
+    width: 400px;
+   
+}
+.student{
+    margin-top: 100px;
+}
+
+#main-vdo{
+
+    width: 1036px;
+    height: 576px;
+    margin: 80px auto;
+    border: 1px solid gray;
+    border-radius: 16px;
+    padding: 20px;
+
+}
+
+iframe{
+    width:100%;
+    border-radius: 12px;
+    height: 100%;
+
+}
+
+        
+#card-container{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+
+.card{
+     border-radius: 16px;
+    box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.25);
+    background: white;
+    width: 364px;
+    height: 244px;
+    padding: 40px;
+    margin-top: 10px;
+    column-gap: 20px;
+   
+
+}
+
+.card h2{
+    color: blue;
+    margin:20px 0;
+}
+
+.card p{
+    color: rgb(100, 23, 116);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card img{
+    width:50px;
+    height:50px;
+}
+
+
+/* bannar end here */
+
+/* 2nd banner start here */
+
+/* 2nd banner start here */
+
+/* main  end  here */
+
+
+/* footer start here  */
+.address p{
+    font-size: 16px;
+    font-weight: 15px;
+    color: white;
+    text-align: center;
+
+}
+.address{
+    background-color:rgb(23, 23, 92);
+    height:70px;
+    width: 100%;
+    padding:20px;
+}
+/* footer end here */
